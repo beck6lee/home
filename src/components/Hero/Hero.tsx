@@ -65,7 +65,6 @@ export default function Hero() {
           }
         })
       })
-      frame++
       animId = requestAnimationFrame(animate)
     }
     animate()
