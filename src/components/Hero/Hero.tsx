@@ -12,7 +12,6 @@ export default function Hero() {
     const ctx = canvas.getContext('2d')
     if (!ctx) return
 
-    let frame = 0
     const resize = () => {
       canvas.width = canvas.offsetWidth
       canvas.height = canvas.offsetHeight
