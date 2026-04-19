@@ -28,6 +28,11 @@
   transform: translateX(4px);
 }
 
+.linkCard:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
 .icon {
   font-size: 1.5rem;
   width: 48px;
@@ -88,6 +93,11 @@
 .cta:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.cta:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
 }
 
 @media (max-width: 768px) {

@@ -14,17 +14,17 @@ export default function ContactPage() {
           <a
             href="https://github.com/beck6lee"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
             className={styles.linkCard}
           >
-            <div className={styles.icon}>⌉</div>
+            <div className={styles.icon} aria-hidden="true">⌨</div>
             <div>
               <span className={styles.linkLabel}>GitHub</span>
               <span className={styles.linkValue}>github.com/beck6lee</span>
             </div>
           </a>
           <a href="mailto:hi@beckli.top" className={styles.linkCard}>
-            <div className={styles.icon}>✉</div>
+            <div className={styles.icon} aria-hidden="true">✉</div>
             <div>
               <span className={styles.linkLabel}>邮箱</span>
               <span className={styles.linkValue}>hi@beckli.top</span>
