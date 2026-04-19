@@ -1,6 +1,7 @@
 import { Product } from '@/data/products'
 import styles from './ProductCard.module.css'
-
+import type { Product } from '@/data/products'
+import type { CSSProperties } from 'react'
 interface Props {
   product: Product
 }
@@ -13,7 +14,7 @@ const statusLabels = {
 
 export default function ProductCard({ product }: Props) {
   return (
-    <article className={styles.card} style={{ '--accent': product.accentColor } as React.CSSProperties}>
+    <article className={styles.card} style={{ '--accent': product.accentColor } as CSSProperties}>
       <div className={styles.top}>
         <span className={styles.status} data-status={product.status}>
           {statusLabels[product.status]}

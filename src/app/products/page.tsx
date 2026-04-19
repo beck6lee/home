@@ -9,7 +9,7 @@ export default function ProductsPage() {
   const idea = products.filter((p) => p.status === 'idea')
 
   return (
-    <SectionWrapper title='产品' subtitle='_side projects'>
+    <SectionWrapper title="在做的事情" subtitle="一个正在建造中的一人公司">
       {building.length > 0 && (
         <div className={styles.group}>
           <h3 className={styles.groupTitle}>🚧 建造中</h3>
