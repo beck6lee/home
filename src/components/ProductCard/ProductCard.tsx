@@ -1,4 +1,3 @@
-import { Product } from '@/data/products'
 import styles from './ProductCard.module.css'
 import type { Product } from '@/data/products'
 import type { CSSProperties } from 'react'
